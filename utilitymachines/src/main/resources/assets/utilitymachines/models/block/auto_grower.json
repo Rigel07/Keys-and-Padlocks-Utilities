@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "utilitymachines:block/auto_grower_top",
+    "side": "utilitymachines:block/auto_grower_side",
+    "bottom": "utilitymachines:block/auto_grower_side"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "utilitymachines:repairer",
+    "utilitymachines:tube",
+    "utilitymachines:auto_grower",
+    "utilitymachines:elevator"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "utilitymachines:block/lock_table_top",
+    "side": "utilitymachines:block/lock_table_side",
+    "bottom": "utilitymachines:block/lock_table_side"
+  }
+}

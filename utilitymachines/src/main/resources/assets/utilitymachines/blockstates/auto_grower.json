@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "utilitymachines:block/auto_grower"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "utilitymachines:block/repairer_top",
+    "side": "utilitymachines:block/repairer_side",
+    "bottom": "utilitymachines:block/repairer_side"
+  }
+}
