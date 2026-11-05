@@ -57,7 +57,7 @@ public class GrowerBlock extends BaseEntityBlock {
             BlockEntity be = level.getBlockEntity(pos);
             if (be instanceof GrowerBlockEntity grower) {
                 Containers.dropContents(level, pos, grower);
-                level.updateNeighbourForOutputSignals(pos, this);
+                level.updateNeighbourForOutputSignal(pos, this);
             }
         }
         super.onRemove(state, level, pos, newState, moving);

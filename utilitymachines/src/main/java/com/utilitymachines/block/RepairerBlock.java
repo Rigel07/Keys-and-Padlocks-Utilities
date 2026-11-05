@@ -55,7 +55,7 @@ public class RepairerBlock extends BaseEntityBlock {
             BlockEntity be = level.getBlockEntity(pos);
             if (be instanceof RepairerBlockEntity repairer) {
                 Containers.dropContents(level, pos, repairer);
-                level.updateNeighbourForOutputSignals(pos, this);
+                level.updateNeighbourForOutputSignal(pos, this);
             }
         }
         super.onRemove(state, level, pos, newState, moving);
